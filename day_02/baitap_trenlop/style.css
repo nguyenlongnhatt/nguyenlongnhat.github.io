@@ -1,0 +1,31 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.footer{
+    background-color:#30598c;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+li,a{
+    font-size: 14px;
+    font-weight: 400;
+     color: #fff; 
+     margin-bottom: 16px;}
+h2{
+        margin-top: 24px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 8px;
+        color: #fff;;
+} */
+.footer-item li{
+    color: brown;
+}

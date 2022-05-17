@@ -1,0 +1,51 @@
+/* clear một số thuộc tính về trạng thái ban đầu */
+/* phần tử * có ngĩa là tất cả phần tử có trong trang web */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    width: 320px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    margin: auto; 
+    /*margin auto căn chỉnh một phần tử block vào giữa */
+    margin-top: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* những giá trị nên đặt khi có ảnh */
+img{
+    /* đặt kích thước mãx cho ảnh */
+    max-width: 100%;
+
+    display: block;
+/* cho một thẻ block ra giữa */
+    margin: auto;
+   
+}
+.content{
+    padding: 20px;
+}
+.title{
+    font-size: 19px;
+    color:#464646;
+    font-weight:400;
+}
+.type, .rating{
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100;
+}
+.type{
+    margin: 14px 0;
+}
+.rating span{
+    color: #ffd600;
+}

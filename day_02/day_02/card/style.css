@@ -1,0 +1,39 @@
+/*clear một số thuộc tính về trạng thái ban đầu*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'roboto'; sans-serif}
+    /*auto có nếu có ảnh*/
+img{
+    max-width:100%;
+    display:block;
+    margin:auto;}
+.card{
+    width:320px
+    box-shadow:auto
+    margin:auto
+    margin: top 50px;
+
+    borde-radius:5px;
+    overflow
+
+}
+.content{
+    padding:20px;
+}
+.title{
+    font-size: 19px;
+    color:
+    font-weight: 400;
+}
+.type, .rating{
+    font-size: 14px;
+    color:
+    font-weight: 100;
+}
+.type{
+    margin: 10px;
+}

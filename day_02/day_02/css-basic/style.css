@@ -1,0 +1,37 @@
+/* h2{color:red;
+
+}
+#heading{
+    color: blue;
+}
+p {
+    color:beige
+}
+.text{background-color:brown ;}
+.text1{
+    font-size: 20px;
+}
+.text.text1{ 
+    font-size: 20Px;
+
+}
+.text1{
+    font-size: 26Px;
+}
+p.text.text1{ 
+    font-size: 30px;} */
+   /*chọn thẻ p nắm trong class box*/ 
+    .box p {
+        background-color:brown ;
+    }
+    /* h2, p{
+        text-align: center;
+    }
+/* chọn thẻ nằm bên trên thẻ box*/
+/* #heading+.box{
+    background-color: blueviolet;
+}  */
+/*chọn nhiều class nằm sau p  */ 
+/* p~.text{
+    font-style: italic;
+} */ */
