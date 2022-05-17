@@ -22,6 +22,8 @@ HTML là viết tắt của Hyper Text Markup Language (ngôn ngữ đánh dấu
 ```
 ###code tham khảo
 ngoặc vuông là tiêu đề ngoặc tròn link
--[buổi học số 1](./day_01/index.html)
--[buổi học số 2](./day_02/day_02/form.html/index.html)
+- [buổi học số 1](./day_01/index.html)
+
+- [buổi học số 2](./day_02/day_02/form.html/index.html)
+
 ![ảnh trái tim](./day_01/image/anh1.jpg)
