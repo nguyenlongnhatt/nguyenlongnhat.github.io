@@ -1,0 +1,6 @@
+content.txt
+message.txt
+*.txt
+content/
+**.ds_store
+**.vscode
