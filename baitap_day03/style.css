@@ -29,10 +29,11 @@
  .info{
     font-size: 16px;
     padding: 1rem 1.5rem 0 1.5rem;
-    padding-top: 16px; 
+    padding-top: 12px; 
     line-height: 1.5;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
     color: #464646;
+   
  }
 
 
@@ -50,10 +51,10 @@
     font-size: 16px;
     padding: 7px 0;
 
-  
 }
+/* }
  h2{
     color: #464646;
     margin: 2px 0;
- }
+ } */
 
