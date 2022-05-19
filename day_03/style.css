@@ -1,0 +1,36 @@
+:root{
+    font-size: 14px;
+    --color-text:#2757a3;
+    --color-heading:#911073;
+    --width:100px;
+    --height: 100px;
+}
+
+
+.text{
+    --color-text:#26bda1;
+    font-size: 2rem;
+    color: var(--color-text);
+}
+.box p{
+    font-size: 2em;
+   color: var(--color-text)
+}
+.box{
+    font-size: 20px;
+}
+.parent{
+    width: calc(10* var(--width));
+    height: calc(5*var(--height));
+    width: 50vw;
+    height: 50vh;
+    background-color: brown;
+}
+.child{
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+}
+.heading{
+    color: var( --color-heading);
+}

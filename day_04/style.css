@@ -1,0 +1,28 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.item{
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+    color: #f0f8ff;
+    font-size: 2rem;
+border:2px solid black;
+
+/* text-align: center;
+line-height: 100px; */
+}
+.container{
+    background-color:rgb(255, 153, 0);
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    
+    /* cho phần tử vào giũa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* align-self căn chỉnh bản thân phần tử */
+flex-basis
