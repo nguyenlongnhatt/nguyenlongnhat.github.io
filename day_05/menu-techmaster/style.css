@@ -86,7 +86,12 @@ img {
 
 .sub-menu-item:hover {
     background-color: #c4c4c4;
-    color: #fff ;
+    color: #464646;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
 }
 
 /* stylE avatar */
@@ -99,10 +104,16 @@ img {
     margin: 0 16px;
 }
 .cart-court{
-    color: white;
-position: absolute;
-top: 10px;
+    background-color: #26a69a;
+    position: absolute;
+    width: 12px;
+    top: 12px;
 }
+    
+
 .card-icon{
     color: #fff;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
 }

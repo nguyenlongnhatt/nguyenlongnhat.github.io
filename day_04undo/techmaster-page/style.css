@@ -5,9 +5,22 @@
 }
 
 body {
+
   font-family: "Roboto", sans-serif;
 }
-
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.course{
+  padding-top: 30px;
+}
+.course-item {
+  flex-basis: 33.33%;
+  padding: 0 15px;
+}
 .card {
   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
   margin: auto;
@@ -16,6 +29,15 @@ body {
   overflow: hidden;
   margin-bottom: 30px;
 }
+/* những giá trị nên đặt khi có ảnh */
+img {
+  /* đặt kích thước mãx cho ảnh */
+  max-width: 100%;
+  display: block;
+  /* cho một thẻ block ra giữa */
+  margin: auto;
+}
+
 .image {
   height: 240px;
 }
@@ -24,61 +46,211 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/* những giá trị nên đặt khi có ảnh */
-img {
-  /* đặt kích thước mãx cho ảnh */
-  max-width: 100%;
-
-  display: block;
-  /* cho một thẻ block ra giữa */
-  margin: auto;
-}
-.container {
-  width: 1200px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-.course-item {
-  flex-basis: 33.33%;
-  padding: 0 15px;
-}
 .content {
   padding: 20px;
+  height: 133px;
 }
 .title {
   font-size: 19px;
   color: #464646;
   font-weight: 400;
 }
-.type,
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.type {
+  margin: 14px 0;
+}
+
 .rating {
   font-size: 14px;
   color: #757575;
   font-weight: 100;
 }
-.type {
-  margin: 14px 0;
-}
 .rating span {
   color: #ffd600;
 }
+.container-fluid {
+  width: 100%;
+  background-color: #30598c; 
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-footer{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+
+}
 .footer-item {
-  background-color: #30598c;
-  text-align: center;
+  /* background-color: #30598c; */
   color: #fff;
   line-height: 35px;
   padding: 48px 15px;
     flex-basis: 25%;
+    width: 100%;
 }
 ul{
   list-style-type: none ;
 
 }
+a{
+  color: #fff;
+
+}
+/* link1 */
+body1{
+
+    font-family: "Roboto", sans-serif;
+}
+.court1{
+  width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+  padding: 3rem 2.5rem 2.3rem;
+  color: #464646;
+}
+.court1 h2{
+  margin-bottom: 20px;
+  margin-top: 35px
+}
+.court1 li{
+  margin-bottom: 15px;
+}
+.court1 p{
+  margin-bottom: 15px;
+}
+h3{
+  padding: 18px 0;
+  border-bottom: #464646;
+}
+ .contaxt{
+  border-top: 1px solid #f4f4f4;
+  padding: 1rem 1.5rem 2rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center; 
+ }
+.img-support img{
+  border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+    align-items: center;
+}
+
+.contact{   
+   
+    align-items: center;
+}
+.button a{
+ 
+  background-color: rgb(51, 217, 159);
+
+}
+/* phần footer */
+.header {
+  position: relative;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+  align-items: center;
+  height: 60px;
+  background-color: #30598c;
+  padding: 0 15px;
+
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.sidebar {
+  align-items: center;
+  display: flex;
+}
+
+/* style menu */
+.menu>ul {
+  display: flex;
+
+}
+
+.menu-item {
+  height: 60px;
+  font-size: 15px;
+  color: #fff;
+  margin: 0 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.menu-item span {
+  margin-left: 4px;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  background-color: #fff;
+  color: #212529;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+
+.sub-menu-item {
+
+  padding: 11px 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu-item:hover {
+  background-color: #c4c4c4;
+  color: #464646;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  text-align: center;
+  text-transform: none;
+  width: 100%;
+}
+
+/* stylE avatar */
+.avartar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.card{
+  margin: 0 16px;
+}
+.cart-court{
+  background-color: #26a69a;
+  position: absolute;
+  width: 12px;
+  top: 12px;
+}
   
 
+.card-icon{
+  color: #fff;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
