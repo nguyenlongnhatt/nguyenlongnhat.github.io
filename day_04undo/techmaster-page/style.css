@@ -22,6 +22,7 @@ body {
   padding: 0 15px;
 }
 .card {
+  
   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
   margin: auto;
   /*margin auto căn chỉnh một phần tử block vào giữa */
@@ -103,7 +104,7 @@ a{
 
 }
 /* link1 */
-body1{
+.body1{
 
     font-family: "Roboto", sans-serif;
 }
@@ -145,13 +146,13 @@ h3{
 }
 
 .contact{   
-   
+   align-self: start;
     align-items: center;
 }
 .button a{
- 
-  background-color: rgb(51, 217, 159);
-
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(44, 159, 121);
 }
 /* phần footer */
 .header {
