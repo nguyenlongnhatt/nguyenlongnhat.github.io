@@ -79,7 +79,7 @@ img {
     cursor: pointer;
     text-align: center;
 }
-
+.sub-menu-item  {
 .menu-item:hover .sub-menu {
     display: block;
 }

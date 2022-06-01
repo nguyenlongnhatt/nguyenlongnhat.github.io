@@ -1,0 +1,13 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    margin: auto;
+}
+.heart{
+    height: 100px;
+    width: 50px;
+    background-color: blue;
+    margin: auto;
+    top: 50px;
+}

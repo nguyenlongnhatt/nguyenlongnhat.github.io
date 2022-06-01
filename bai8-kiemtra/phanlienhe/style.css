@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+#header {
+    background-color: #FEF9F7;
+    min-height: 60px;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.header-inner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 20px;
+}
+.logo h3{
+    animation-name:head;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+    
+}
+@keyframes head {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item {
+    display: inline-block;
+    padding: 6px 15px;
+}
+.contact-banner {
+    background-image: url(https://images01.nicepage.io/9c/28/9c289ecc-1f3c-40eb-8b27-06e5cb95d2a8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 20px;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.btn-contact {
+    background-color: #f05510;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.contact-info {
+    padding: 0 40px;
+}
+.contact-item h2 {
+    color: #f05510;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contact-item p {
+    margin-bottom: 15px;
+}
+.contact-map {
+    flex: 0 0 46%;
+}
+#footer {
+    background-color: #FEF9F7;
+    text-align: center;
+    padding: 30px 0;
+}
+.author {
+    font-size: 20px;
+    font-weight: 500;
+}   
+.copy-right {
+    font-weight: 700;
+    color: #f05510;
+}
+a{
+    text-decoration: none;
+    color: #111;
+}

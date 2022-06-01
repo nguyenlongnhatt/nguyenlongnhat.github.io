@@ -1,0 +1,124 @@
+/* .box{
+width: 200px;
+height: 200px;
+background-color: brown;
+
+}
+
+.text{
+    overflow: hidden;
+    margin: auto;
+}
+.text{
+    width: 400px;
+    padding:20px;
+    background-color: bisque;
+
+}
+.text p{
+    transform: translateX(430px);
+    opacity: 0;
+
+    transition: all 1s;
+
+}
+.text:hover p{
+    transform: translateX(0px);
+    opacity: 1;
+} */
+
+/* .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.text p {
+    position: absolute;
+    width: 400px;
+    padding:20px;
+    background-color: bisque;
+
+
+}
+/* opacity từ 0 đến 1 càng về 0 càng mờ đi */
+/* .text:hover p {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+.text p {
+    transform: translateX(430px);
+    opacity: 0;
+
+    transition: all 1s;
+
+}
+
+.text:hover p {
+    transform: translateX(0px);
+    opacity: 1;
+} */
+/* .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+
+.text p {
+    position: absolute;
+    width: 400px;
+    padding:20px;
+    background-color: bisque;
+
+
+}  */
+/* opacity từ 0 đến 1 càng về 0 càng mờ đi */
+ /* .text:hover p {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+.text p {
+    transform: translateX(430px);
+    opacity: 0;
+
+    transition: all 1s;
+
+}
+
+.text:hover p {
+    transform: translateX(0px);
+            opacity: 1; } */
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+h2 {
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    background-color: blue;
+
+}
+
+h2 {
+    transform: translateX(-200px);
+    opacity: 0;
+
+    transition: all 1s;
+
+}
+.text:hover h2 {
+    transform: translateX(0px);
+    opacity: 1;
+ 
+}

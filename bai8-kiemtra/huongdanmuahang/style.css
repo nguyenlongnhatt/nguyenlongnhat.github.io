@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+#header {
+    background-color: #FEF9F7;
+    min-height: 60px;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.header-inner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 20px;
+}
+.logo h3{
+    animation-name:head;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+    
+}
+@keyframes head {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item {
+    display: inline-block;
+    padding: 6px 15px;
+}
+.btn-contact {
+    background-color: #f05510;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.buy-banner {
+    background-image: url(https://images01.nicepage.io/9c/28/9c289ecc-1f3c-40eb-8b27-06e5cb95d2a8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 20px;
+}   
+.buy-wrapper {
+    padding: 40px 0;
+}
+.buy-wrapper h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    color: #f05510;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.buy-wrapper p {
+    color: #696969;
+}
+.buy-wrapper h2 {
+    margin-top: 1.3rem;
+    color: #f05510;
+}
+.buy-wrapper p {
+    color: #696969;
+}
+.buy-wrapper h3 {
+    margin-top: 1rem;
+}
+#footer {
+    background-color: #FEF9F7;
+    text-align: center;
+    padding: 30px 0;
+}
+.author {
+    font-size: 20px;
+    font-weight: 500;
+}
+.copy-right {
+    font-weight: 700;
+    color: #f05510;
+}
+a{
+    text-decoration: none;
+    color: #111;
+}

@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.image{
+    position: relative;
+}
+/* Auto xuất hiện nếu trang web có ảnh */
+img {
+    /* transform: scale(1.5); */
+    max-width: 100%;
+    display: block;
+    margin: auto;
+            position: relative;}
+    /* opacity: 0;
+
+    transition: all 1s;
+}
+.image:hover img {
+    transform: translateX(0px);
+    opacity: 1;
+  
+    /* .contents {
+        transform: translatey(0px);
+        opacity: 0;
+    } */
+/* .card:hover .content{
+    transform: translateY(-20px);
+}
+.card:hover .contents{
+object-position: 1;
+} */
+.card {
+    width: 320px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.content {
+    padding: 10px;
+}
+.type {
+    color: red;
+  }
+
+.title {
+    font-size: 19px;
+    color : #464646;
+    font-weight: 400;
+}
+.comment{
+    padding: 4px;
+}
+.contents{
+    font-size: medium;
+    padding: 4px;
+}
+/* .type, .rating {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100;
+} */
+/* .child {
+    width:100px;
+    height:100px;
+    background-color:blue;
+   
+    position:absolute;
+    top:50px;
+    left:50px;
+    border-radius: 5%;
+   
+   
+} */
+    
+
+.child1{
+    width: 56px;
+    height: 51px;
+    background-color: darkorange;
+    position: absolute;
+    top: 66px;
+    left: 572px;
+    border-radius: 65%;
+    z-index: 2;
+}
+.date{
+    font-size: 12px;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 2px;
+    position: absolute;
+
+}
+
+.child{
+    width: 86px;
+    height: 51px;
+    background-color: darkorange;
+    position: absolute;
+   top: 211px;
+    left: 329px;
+}
+
+.photo{
+    color: aliceblue;
+ display: flex;
+ padding-top: 15px;
+    padding-left: 22px;
+   position: absolute;
+}
+/* 
+.rating span {
+    color: #ffd600;
+} */
